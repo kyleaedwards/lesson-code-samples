@@ -20,7 +20,7 @@ source env/bin/activate
 pip install -r requirements.txt
 ```
 
-> **Note**: It's a common convention to put your project's dependency in a `requirements.txt` file, and `pip install` them using the `-r` flag to use a file. Otherwise, you can install individual dependencies without a file like `pip install requests`.
+> It's a common convention to put your project's dependency in a `requirements.txt` file, and `pip install` them using the `-r` flag to use a file. Otherwise, you can install individual dependencies without a file like `pip install requests`.
 
 ## Usage
 
